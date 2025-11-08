@@ -3,6 +3,7 @@
 **Project Name:** Dozo  
 **Author:** Yashasvi Pandey & Aman Chhimwal  
 **Institution:** CHRIST (Deemed to be University) Delhi NCR Campus
+
 **Year:** 2025  
 ---
 
