@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dozo</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login_subtitle">Login to continue helping others</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_prompt">Don\'t have an account? Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="signup_subtitle">Join the helping community</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="login_prompt">Already have an account? Login</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

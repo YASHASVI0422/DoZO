@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Category Badge -->
+        <View
+            android:id="@+id/categoryBadge"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:background="@color/primary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <!-- Category Text -->
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="📚 Notes"
+            android:textColor="@color/primary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/categoryBadge"/>
+
+        <!-- Time -->
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2h ago"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Task Title -->
+        <TextView
+            android:id="@+id/tvTaskTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Need Data Structures Notes"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintTop_toBottomOf="@id/tvCategory"
+            app:layout_constraintStart_toEndOf="@id/categoryBadge"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Task Description -->
+        <TextView
+            android:id="@+id/tvTaskDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="Looking for comprehensive notes for Unit 3 and 4"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintTop_toBottomOf="@id/tvTaskTitle"
+            app:layout_constraintStart_toEndOf="@id/categoryBadge"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Posted By -->
+        <TextView
+            android:id="@+id/tvPostedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:text="Posted by: Rahul Sharma"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:drawablePadding="4dp"
+            app:drawableStartCompat="@android:drawable/ic_menu_myplaces"
+            app:drawableTint="@color/text_secondary"
+            app:layout_constraintTop_toBottomOf="@id/tvTaskDescription"
+            app:layout_constraintStart_toEndOf="@id/categoryBadge"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
