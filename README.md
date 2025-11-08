@@ -46,16 +46,9 @@
 
 ## 👨‍💻 Developer Info
 
-**Developed by:** [Your Name]  
-**Institution:** [Your College Name]  
-**Contact:** [Your Email or LinkedIn]  
-**GitHub:** [Your GitHub Profile URL]  
+**Developed by:** Yashasvi Pandey & Aman Chhimwal
+**Institution:** CHRIST (Deemed to be University)
+**Contact:** ypandey865@gmail.com   
 
 ---
-
-### 📱 Screenshots (Optional)
-_Add your app screenshots or demo GIFs here to make the project stand out._
-
----
-
 ⭐ **If you like this project, give it a star on GitHub!**
